@@ -21,9 +21,9 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 def capit(array)
     i = 0 
-    array2 = []
+    new_a = []
     while i < array.length 
-      array2.push(array[i].capitalize)
+      new_a.push(array[i].capitalize)
       i += 1 
     end 
     array2
