@@ -85,6 +85,7 @@ holiday_hash.map do |season, holiday|
   holiday.map do |holiday,i|
   holiday if i.include?("BBQ")
 end
+end.flatten.compact
 
 
 
